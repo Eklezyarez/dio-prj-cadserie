@@ -12,7 +12,6 @@ namespace dio_prj_cadserie.Interfaces
         T RetornaPorId(int id);
 
         void Insere(Task entidade);
-
         void Exclui(int id);
         void Atualiza(int id, T entidade);
         int ProximoId();
