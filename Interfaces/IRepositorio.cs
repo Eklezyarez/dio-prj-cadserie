@@ -10,7 +10,6 @@ namespace dio_prj_cadserie.Interfaces
         List<T> Lista();
 
         T RetornaPorId(int id);
-
         void Insere(Task entidade);
         void Exclui(int id);
         void Atualiza(int id, T entidade);
